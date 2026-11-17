@@ -1,0 +1,11 @@
+{
+    "model_name": "Baseline_Linear_No_Agents",
+    "total_time_steps_frames": 251,
+    "total_telemetry_records_evaluated": 43573,
+    "total_collisions_lt_2m": 2350,
+    "total_conflicts_lt_5m": 22044,
+    "spoofing_detection_rate_pct": 0.0,
+    "spoofing_localization_rmse_m": 14.2744,
+    "blackout_linear_prediction_rmse_m": 2.8425,
+    "avg_step_latency_ms": 3.0432
+}
