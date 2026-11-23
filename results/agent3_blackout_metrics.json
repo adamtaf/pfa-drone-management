@@ -1,0 +1,12 @@
+{
+    "model_name": "Agent3_LSTM_GRU_Blackout",
+    "device": "mps",
+    "window_size_frames": 10,
+    "blackout_episodes_evaluated": 25,
+    "blackout_frames_evaluated": 500,
+    "baseline_blackout_rmse_m": 2.8425,
+    "agent3_lstm_blackout_rmse_m": 1.1068,
+    "rmse_reduction_pct": 61.06,
+    "avg_inference_latency_ms": 1.9964,
+    "training_time_s": 64.95
+}

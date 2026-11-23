@@ -1,0 +1,47 @@
+{
+    "model_name": "Agent1_RandomForest_Prioritization",
+    "features": [
+        "d_min",
+        "v_close",
+        "voxel_density",
+        "v_norm"
+    ],
+    "train_samples": 42092,
+    "test_samples": 1481,
+    "class_distribution_total": {
+        "0": 14084,
+        "1": 23300,
+        "2": 6189
+    },
+    "accuracy": 0.9953,
+    "f1_macro": 0.9628,
+    "f1_weighted": 0.9953,
+    "recall_class_0_normale": 0.9992,
+    "recall_class_1_haute": 0.9828,
+    "recall_class_2_critique": 0.9048,
+    "confusion_matrix": [
+        [
+            1226,
+            1,
+            0
+        ],
+        [
+            2,
+            229,
+            2
+        ],
+        [
+            0,
+            2,
+            19
+        ]
+    ],
+    "feature_importances": {
+        "d_min": 0.7808,
+        "v_close": 0.1762,
+        "voxel_density": 0.0381,
+        "v_norm": 0.0049
+    },
+    "avg_inference_latency_per_frame_ms": 13.263,
+    "training_time_s": 0.38
+}
