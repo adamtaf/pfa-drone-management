@@ -7,5 +7,5 @@
     "spoofing_detection_rate_pct": 0.0,
     "spoofing_localization_rmse_m": 14.2744,
     "blackout_linear_prediction_rmse_m": 2.8425,
-    "avg_step_latency_ms": 3.0432
+    "avg_step_latency_ms": 7.2569
 }

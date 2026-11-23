@@ -1,0 +1,22 @@
+{
+    "model_name": "Agent2_RandomForest_AntiSpoofing",
+    "test_samples": 8674,
+    "accuracy": 0.9697947890246714,
+    "precision_spoofed": 0.5088607594936709,
+    "recall_spoofed": 0.7472118959107806,
+    "f1_spoofed": 0.6054216867469879,
+    "roc_auc": 0.9828235538679624,
+    "average_precision": 0.5259216499316046,
+    "confusion_matrix": {
+        "true_negative": 8211,
+        "false_positive": 194,
+        "false_negative": 68,
+        "true_positive": 201
+    },
+    "features": [
+        "step_dist_measured",
+        "velocity_residual",
+        "v_norm",
+        "step_dist"
+    ]
+}
