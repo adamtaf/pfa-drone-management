@@ -1,2 +1,7 @@
 /venv
 /data
+.python-version
+readme.md
+main.py
+pyproject.toml
+uv.lock
