@@ -1,22 +1,44 @@
 {
     "model_name": "Agent2_RandomForest_AntiSpoofing",
     "test_samples": 8674,
-    "accuracy": 0.9697947890246714,
-    "precision_spoofed": 0.5088607594936709,
-    "recall_spoofed": 0.7472118959107806,
-    "f1_spoofed": 0.6054216867469879,
-    "roc_auc": 0.9828235538679624,
-    "average_precision": 0.5259216499316046,
+    "accuracy": 0.9994,
+    "precision_spoofed": 0.9925,
+    "recall_spoofed": 0.9888,
+    "f1_spoofed": 0.9907,
+    "roc_auc": 0.9999,
+    "average_precision": 0.998,
+    "avg_inference_latency_ms_per_frame": 13.3341,
+    "training_time_s": 0.59,
     "confusion_matrix": {
-        "true_negative": 8211,
-        "false_positive": 194,
-        "false_negative": 68,
-        "true_positive": 201
+        "true_negative": 8403,
+        "false_positive": 2,
+        "false_negative": 3,
+        "true_positive": 266
+    },
+    "feature_importances": {
+        "drift_20": 0.2161,
+        "drift_5": 0.2158,
+        "drift_10": 0.1564,
+        "step_dist_measured": 0.1358,
+        "velocity_residual": 0.1224,
+        "step_ratio": 0.1045,
+        "vel_res_roll_max_5": 0.0366,
+        "vel_res_roll_mean_5": 0.0069,
+        "vel_res_roll_max_15": 0.0032,
+        "vel_res_roll_mean_15": 0.0018,
+        "v_norm": 0.0006
     },
     "features": [
         "step_dist_measured",
         "velocity_residual",
+        "step_ratio",
         "v_norm",
-        "step_dist"
+        "vel_res_roll_max_5",
+        "vel_res_roll_mean_5",
+        "vel_res_roll_max_15",
+        "vel_res_roll_mean_15",
+        "drift_5",
+        "drift_10",
+        "drift_20"
     ]
 }
